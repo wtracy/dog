@@ -3,7 +3,10 @@
 
 #include "buffer.h"
 
-#define BUFSIZE 524288
+/* Size of the buffer. Arbitrarily chosen based on what worked on my machine.
+ * Any value greater than one and less than the available physical RAM should
+ * work. :-)
+#define BUFSIZE 131072
 
 char buffer[BUFSIZE];
 
