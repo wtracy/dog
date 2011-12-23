@@ -1,0 +1,1 @@
+This is basically a re-implementation of the "tee" command, except it doesn't write to stdout, and is missing any useful flags. It just write to whatever output files you give it. It is heavily optmised, though, in case you need to tee really, really, quickly. :-D
